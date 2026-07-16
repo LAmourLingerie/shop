@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P76JR67N');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L’Amour Lingerie | Магазин жіночої нижньої білизни, колготок та топів від виробника</title>
+    <link rel="icon" type="image/png" href="https://res.cloudinary.com/dzqwklovt/image/upload/v1783949195/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_162633243_xetuia.png">
+    <meta name="description" content="Інтернет-магазин L’Amour Lingerie: якісна жіноча нижня білизна, бюстгальтери пуш-ап, безшовні топи, коригуючі лосини, капронові колготки та чоловічі труси боксери недорого від виробника в Україні.">
+    <meta name="keywords" content="L'Amour Lingerie, нижня білизна купити, жіночі трусики, мереживні бюстгальтери, безшовні топи в рубчик, капронові колготки, коригуючі лосини, чоловічі боксери, жіноча білизна від виробника, еротична білизна Україна">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --color-bg: #faf9f6;
+            --color-alt: #f3efe9;
+            --color-men-boxers: #f9f5f0;
+            --color-text-main: #252422;
+            --color-text-muted: #5c5a54;
+            --color-accent: #4a3b32;
+            --font-stack: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            
+            --color-tg-main: #0088cc;
+            --color-tg-hover: #0077b3;
+            --color-tg-dark: #006699;
+            --color-viber-main: #7360f2;
+            --color-viber-hover: #5f4edb;
+            --color-viber-dark: #4b3ca6;
+
+            --color-circle-bg: #c2b4a6; 
+            --color-circle-hover: #b5a596;
+            --shadow-premium: 0 30px 60px -15px rgba(74, 59, 50, 0.08), 0 10px 30px -10px rgba(74, 59, 50, 0.04);
+            --shadow-premium-hover: 0 50px 80px -20px rgba(74, 59, 50, 0.15), 0 15px 40px -10px rgba(74, 59, 50, 0.08);
+            --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        a, button, [role="button"], .category-image-frame {
+            outline: none;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: var(--color-bg);
+            color: var(--color-text-main);
+            line-height: 1.7;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1600px; 
+            margin: 0 auto;
+            padding: 0 50px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .animate-scroll {
+            opacity: 0;
+            transform: translate3d(0, 40px, 0);
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            will-change: transform, opacity;
+            transition: opacity 1s var(--ease-premium), transform 1s var(--ease-premium);
+        }
+
+        .animate-scroll.is-visible {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .delay-1 { transition-delay: 0.1s; }
+        .delay-2 { transition-delay: 0.2s; }
+        .delay-3 { transition-delay: 0.3s; }
+
+        .top-section {
+            min-height: 100vh; 
+            display: flex;
+            align-items: center; 
+            padding: 140px 0 100px 0;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        h1 {
+            font-size: clamp(36px, 5.5vw, 62px); 
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -1.5px;
+            margin-bottom: 60px; 
+            color: var(--color-text-main);
+            max-width: 95%;
+        }
+
+        .top-grid {
+            display: grid;
+            grid-template-columns: 450px 1fr; 
+            gap: 100px; 
+            align-items: center; 
+        }
+
+        .logo-placeholder {
+            background-color: transparent;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: auto;
+            flex-shrink: 0;
+            transform: translateZ(0);
+            will-change: transform;
+            transition: transform 0.8s var(--ease-premium);
+        }
+
+        .logo-placeholder:hover {
+            transform: scale(1.02) translateZ(0);
+        }
+
+        .logo-placeholder img {
+            width: 100%; 
+            height: 420px; 
+            max-height: 420px;
+            object-fit: contain;
+        }
+
+        .welcome-text {
+            font-size: 21px; 
+            color: var(--color-text-muted);
+            text-align: justify;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        .category-block {
+            padding: 100px 0; 
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            contain: layout style;
+        }
+
+        .category-block.bg-alt {
+            background-color: var(--color-alt);
+        }
+
+        .category-block.bg-men-boxers {
+            background-color: var(--color-men-boxers);
+        }
+
+        .category-card {
+            background: transparent !important;
+            border: none !important;
+            box-shadow: none !important;
+            padding: 0;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .chess-grid {
+            display: grid;
+            grid-template-columns: 1.85fr 1fr; 
+            gap: 80px; 
+            align-items: center;
+            width: 100%;
+        }
+
+        @media (min-width: 1024px) {
+            .category-block:nth-child(even) .chess-grid {
+                grid-template-columns: 1fr 1.85fr; 
+            }
+
+            .category-block:nth-child(even) .category-image-frame {
+                grid-column: 1;
+                grid-row: 1;
+            }
+
+            .category-block:nth-child(even) .category-content {
+                grid-column: 2;
+                grid-row: 1;
+            }
+        }
+
+        .category-content {
+            width: 100%;
+            background: #ffffff;
+            border: 1px solid rgba(74, 59, 50, 0.05);
+            border-radius: 40px; 
+            padding: 50px 60px; 
+            box-shadow: var(--shadow-premium);
+            transform: translateZ(0);
+            will-change: transform, box-shadow;
+            transition: transform 0.6s var(--ease-premium), box-shadow 0.6s var(--ease-premium);
+        }
+
+        .category-content:hover {
+            transform: translateY(-10px) translateZ(0);
+            box-shadow: var(--shadow-premium-hover);
+        }
+
+        .category-content h2 {
+            font-size: clamp(28px, 3.5vw, 36px); 
+            font-weight: 700;
+            margin-bottom: 25px;
+            position: relative;
+            display: inline-block;
+            color: var(--color-text-main);
+        }
+
+        .category-content h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 40px;
+            height: 3px;
+            background-color: var(--color-accent);
+            border-radius: 2px;
+            will-change: width;
+            transition: width 0.4s var(--ease-premium);
+        }
+
+        .category-content:hover h2::after {
+            width: 70px;
+        }
+
+        .category-content p {
+            color: var(--color-text-muted);
+            font-size: 17px; 
+            text-align: justify;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .category-scroll-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            padding: 18px 36px;
+            color: #ffffff;
+            background-color: var(--color-accent);
+            font-weight: 700;
+            font-size: 16px; 
+            text-decoration: none;
+            border-radius: 50px;
+            letter-spacing: 0.5px;
+            box-shadow: 0 10px 20px rgba(74, 59, 50, 0.15);
+            transform: translate3d(0, 0, 0);
+            position: relative;
+            overflow: hidden;
+            will-change: transform, background-color, box-shadow;
+            transition: transform 0.3s var(--ease-premium), background-color 0.3s var(--ease-premium), box-shadow 0.3s var(--ease-premium);
+        }
+
+        .category-scroll-link * {
+            pointer-events: none !important;
+        }
+
+        .category-scroll-link .link-text {
+            position: relative;
+            display: inline-block;
+        }
+
+        .category-scroll-link .link-text::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #f3efe9; 
+            transform-origin: bottom center;
+            transition: transform 0.35s var(--ease-premium);
+        }
+
+        @media (min-width: 1024px) {
+            .category-scroll-link:hover {
+                background-color: #5c4a3e;
+                transform: translate3d(0, -4px, 0);
+                box-shadow: 0 15px 25px rgba(74, 59, 50, 0.25);
+                color: #f3efe9;
+            }
+            .category-scroll-link:hover .link-text::after {
+                transform: scaleX(1);
+            }
+        }
+
+        .category-scroll-link:active {
+            transform: translate3d(0, -1px, 0);
+            box-shadow: 0 8px 15px rgba(74, 59, 50, 0.15);
+        }
+
+        .category-scroll-link .arrow {
+            display: inline-block;
+            margin-left: 12px;
+            font-size: 18px;
+            will-change: transform;
+            animation: bounceArrow 1.6s ease-in-out infinite;
+        }
+
+        @keyframes bounceArrow {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(6px); }
+        }
+
+        .category-image-frame {
+            width: 450px; 
+            height: 450px; 
+            border-radius: 50%; 
+            background-color: var(--color-circle-bg); 
+            border: 1px solid rgba(74, 59, 50, 0.03); 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: visible; 
+            cursor: pointer;
+            transform: translateZ(0);
+            will-change: transform, background-color;
+            transition: background-color 0.6s var(--ease-premium), transform 0.6s var(--ease-premium);
+        }
+
+        .category-block:nth-child(odd) .category-image-frame {
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .category-block:nth-child(even) .category-image-frame {
+            margin-right: auto;
+            margin-left: 0;
+        }
+
+        .category-image-frame .wave-pulse {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: 50%;
+            border: 2px solid var(--color-circle-bg);
+            opacity: 0;
+            pointer-events: none;
+            z-index: 1;
+            transform: scale(1);
+            will-change: transform, opacity;
+        }
+
+        .category-image-frame .wave-pulse-1 { animation: waveEffect 4.5s cubic-bezier(0.25, 0, 0, 1) infinite; }
+        .category-image-frame .wave-pulse-2 { animation: waveEffect 4.5s cubic-bezier(0.25, 0, 0, 1) infinite 1.5s; }
+        .category-image-frame .wave-pulse-3 { animation: waveEffect 4.5s cubic-bezier(0.25, 0, 0, 1) infinite 3s; }
+
+        @keyframes waveEffect {
+            0% { transform: scale(1); opacity: 0.6; }
+            100% { transform: scale(1.25); opacity: 0; }
+        }
+
+        .category-image-frame:hover {
+            background-color: var(--color-circle-hover); 
+        }
+
+        .category-image-frame img {
+            width: 85%; 
+            height: 85%;
+            object-fit: contain; 
+            position: relative;
+            z-index: 2;
+            transform: translateZ(0);
+            will-change: transform;
+            transition: transform 0.8s var(--ease-premium);
+        }
+
+        .standalone-contact-section {
+            position: relative;
+            z-index: 1;
+            padding: 140px 0;
+            background-color: #8D7A6B;
+            overflow: hidden;
+            contain: layout style;
+        }
+
+        .contact-flex-layout {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 60px;
+            width: 100%;
+        }
+
+        .footer-cta-text {
+            flex: 1.5;
+            text-align: left;
+            max-width: 920px;
+            margin: 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-cta-text h3 {
+            font-size: 46px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #FFFFFF;
+            margin-bottom: 25px;
+        }
+
+        .footer-cta-text p {
+            font-size: 18px;
+            font-weight: 400;
+            color: #FDFBF7;
+            line-height: 1.85;
+            text-align: justify;
+            opacity: 0.95;
+        }
+
+        .footer-actions-right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            text-align: center;  
+            max-width: 480px;
+        }
+
+        .messenger-heading {
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #FDFBF7;
+            margin-bottom: 35px;
+            opacity: 0.9;
+        }
+
+        .cta-group {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            gap: 40px !important;
+            position: relative;
+            z-index: 5;
+        }
+
+        .button {
+            -webkit-font-smoothing: antialiased;
+            border: none;
+            color: #fff;
+            display: block;
+            font-family: var(--font-stack);
+            height: 70px;
+            line-height: 70px;
+            text-decoration: none;
+            user-select: none;
+            cursor: pointer;
+            overflow: hidden;
+            width: 210px; 
+            border-radius: 35px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+            position: relative;
+            z-index: 4;
+            transform: translateZ(0);
+            will-change: transform, box-shadow;
+            transition: transform 0.4s var(--ease-premium), box-shadow 0.4s var(--ease-premium);
+        }
+
+        .button:hover {
+            transform: translateY(-4px) translateZ(0);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+        }
+
+        .button:active {
+            transform: translateY(-1px) scale(0.98) translateZ(0);
+        }
+
+        .button-tg { background: var(--color-tg-main); }
+        .button-viber { background: var(--color-viber-main); }
+
+        .button span,
+        .button .icon {
+            display: block;
+            height: 100%;
+            text-align: center;
+            position: absolute;
+            top: 0;
+        }
+
+        .button span {
+            width: 75%;
+            line-height: inherit;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            left: 0;
+            z-index: 3;
+            will-change: transform;
+            transition: transform 0.4s var(--ease-premium);
+        }
+
+        .button .icon {
+            width: 25%;
+            right: 0;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            will-change: transform;
+            transition: transform 0.4s var(--ease-premium);
+        }
+
+        .button .icon img {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
+            will-change: transform;
+            transition: transform 0.4s var(--ease-premium);
+        }
+
+        .button--bubble__container { position: relative; display: inline-block; }
+
+        .goo {
+            position: absolute;
+            visibility: hidden;
+            width: 1px;
+            height: 1px;
+        }
+
+        .button-tg ~ .button--bubble__effect-container .circle,
+        .button-tg ~ .button--bubble__effect-container .effect-button { background: var(--color-tg-main); }
+        
+        .button-viber ~ .button--bubble__effect-container .circle,
+        .button-viber ~ .button--bubble__effect-container .effect-button { background: var(--color-viber-main); }
+
+        .button--bubble__effect-container .circle {
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+        }
+        .button--bubble__effect-container .circle.top-left { top: 40%; left: 27%; }
+        .button--bubble__effect-container .circle.bottom-right { bottom: 40%; right: 27%; }
+        
+        .button--bubble__effect-container {
+            position: absolute;
+            display: block;
+            width: 200%;
+            height: 400%;
+            top: -150%;
+            left: -50%;
+            filter: url("#goo");
+            transition: all 0.1s ease-out;
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .button--bubble__container .effect-button {
+            position: absolute;
+            width: 50%;
+            height: 25%;
+            top: 50%;
+            left: 25%;
+            z-index: 1;
+            transform: translateY(-50%);
+            border-radius: 35px;
+        }
+
+        @media (min-width: 1024px) {
+            .button { transition: transform 0.4s var(--ease-premium), box-shadow 0.4s var(--ease-premium), background 0.4s var(--ease-premium); }
+            .button span { transition: transform 0.4s var(--ease-premium), opacity 0.4s var(--ease-premium); }
+            .button .icon { transition: transform 0.4s var(--ease-premium), width 0.4s var(--ease-premium); }
+            
+            .button:hover { background: transparent !important; }
+            .button:hover span { transform: translateX(-20px); opacity: 0; }
+            .button:hover .icon { width: 100%; transform: translateX(0); }
+            .button:hover .icon img { transform: scale(1.15); }
+            
+            .button-tg:hover ~ .button--bubble__effect-container .circle,
+            .button-tg:hover ~ .button--bubble__effect-container .effect-button { background: var(--color-tg-hover); }
+            
+            .button-viber:hover ~ .button--bubble__effect-container .circle,
+            .button-viber:hover ~ .button--bubble__effect-container .effect-button { background: var(--color-viber-hover); }
+
+            .button:hover ~ .button--bubble__effect-container { transform: scale(1); }
+        }
+
+        @media (max-width: 1399px) {
+            .chess-grid { gap: 40px; }
+            .category-image-frame { width: 380px; height: 380px; }
+            .category-content { padding: 40px 45px; }
+            .container { padding: 0 40px; }
+        }
+
+        @media (max-width: 1023px) {
+            .container { padding: 0 32px; }
+            
+            .top-section { padding: 100px 0 60px 0; min-height: auto; }
+            h1 { font-size: clamp(28px, 6vw, 44px); text-align: center; margin-bottom: 40px; max-width: 100%; letter-spacing: -0.5px; }
+            .top-grid { grid-template-columns: 1fr; gap: 45px; justify-items: center; }
+            
+            .logo-placeholder { justify-content: center; margin: 0 auto; width: 100%; max-width: 340px; }
+            .logo-placeholder img { height: auto; max-height: 340px; }
+            .welcome-text { text-align: center; font-size: 18px; line-height: 1.75; }
+            
+            .category-block { padding: 60px 0; }
+            
+            .chess-grid {
+                display: flex !important;
+                flex-direction: column-reverse !important; 
+                gap: 30px;
+                align-items: center;
+            }
+
+            .category-block:nth-child(even) .category-image-frame,
+            .category-block:nth-child(even) .category-content {
+                grid-column: auto !important;
+                grid-row: auto !important;
+            }
+            
+            .category-image-frame { 
+                width: 320px !important;
+                height: 320px !important;
+                margin: 0 auto 10px auto !important; 
+            }
+            .category-image-frame:hover { transform: none !important; background-color: var(--color-circle-bg) !important; }
+            .category-image-frame:hover img { transform: none !important; }
+            
+            .category-content { 
+                text-align: center; 
+                padding: 40px 30px; 
+                margin: 0 auto !important;
+                max-width: 100%;
+                border-radius: 32px;
+                box-shadow: var(--shadow-premium);
+            }
+            .category-content:hover { transform: none !important; box-shadow: var(--shadow-premium) !important; }
+            .category-content h2 { font-size: 26px; margin-bottom: 20px; }
+            .category-content h2::after { left: 50%; transform: translateX(-50%); width: 50px !important; }
+            
+            .category-content p { text-align: center; font-size: 16px; line-height: 1.75; }
+            
+            .category-scroll-link { margin-top: 25px; padding: 15px 30px; font-size: 15px; width: auto; display: inline-flex; }
+            .category-scroll-link .link-text::after { display: none !important; }
+
+            .standalone-contact-section { padding: 90px 0; }
+            .contact-flex-layout { flex-direction: column !important; gap: 50px; }
+            .footer-cta-text { text-align: center !important; max-width: 100%; }
+            .footer-cta-text h3 { font-size: 34px; margin-bottom: 20px; }
+            .footer-cta-text p { text-align: center; font-size: 16px; line-height: 1.75; }
+            
+            .footer-actions-right { max-width: 100%; width: 100%; }
+            .messenger-heading { font-size: 13px; margin-bottom: 30px; }
+            .cta-group { flex-direction: column !important; width: 100%; gap: 16px !important; align-items: center; }
+            .button--bubble__container { display: block; width: 100%; max-width: 240px; margin: 0 auto; }
+            
+            .button { width: 100%; height: 56px; line-height: 56px; transform: none !important; transition: background-color 0.3s ease, box-shadow 0.3s ease !important; }
+            .button-viber { background-color: var(--color-viber-main) !important; }
+            .button-tg { background-color: var(--color-tg-main) !important; }
+            .button span { transform: none !important; opacity: 1 !important; }
+            .button .icon { transform: none !important; }
+        }
+
+         @media (max-width: 768px) {
+            .standalone-contact-section .cta-group {
+                gap: 24px !important; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container { padding: 0 20px; }
+            .top-section { padding-top: 80px; }
+            h1 { font-size: 26px; margin-bottom: 30px; }
+            .logo-placeholder { max-width: 260px; }
+            .logo-placeholder img { max-height: 260px; }
+            .welcome-text { font-size: 16px; }
+            .category-block { padding: 50px 0; }
+            
+            .category-image-frame { 
+                width: 260px !important;
+                height: 260px !important;
+                margin: 0 auto 5px auto !important;
+            }
+            .category-content { padding: 30px 20px; border-radius: 24px; }
+            .category-content h2 { font-size: 22px; }
+            .category-scroll-link { width: 100%; padding: 14px 20px; font-size: 14px; }
+            .footer-cta-text h3 { font-size: 28px; }
+            .button--bubble__container { max-width: 240px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P76JR67N"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo"/>
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- TOP SECTION -->
+    <section class="top-section">
+        <div class="container">
+            <h1 class="animate-scroll delay-1">L’Amour Lingerie — жіноча білизна, чоловічі боксери, коригуючі лосини, топи та бюстгальтери на будь-який смак</h1>
+            <div class="top-grid">
+                <div class="logo-placeholder animate-scroll delay-2">
+                    <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783950356/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_164553421_hxuzne.png" alt="L’Amour Lingerie">
+                </div>
+                <div class="animate-scroll delay-3">
+                    <p class="welcome-text">
+                        Вітаємо в офіційному інтернет-магазині жіночої білизни L’Amour Lingerie. Ми спеціалізуємося на продажі вишуканої, високоякісної та надзвичайно комфортної жіночої та чоловічої нижньої білизни, еластичних капронових колготок, стильних безшовних топів у рубчик, коригуючого та стягуючого одягу безпосередньо від перевіреного виробника. Створюючи наші колекції, мы орієнтуємося на світові стандарти, використовуючи преміальні гіпоалергенні європейські матеріали, інноваційні безшовні технології та анатомічні лекала для ідеальної посадки. Брендова білизна L’Amour Lingerie дарує неймовірну впевненість у собі, високу зносостійкість після багатьох циклів прання та максимальну ніжність до тіла. Ми гарантуємо професійний підбір розміру, оперативну доставку замовлений по всій Україні та регулярні оновлення колекцій еротичної, базової та повсякденної білизни.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- КАРТКА 1: ТРУСИКИ (Текст Ліворуч, Картинка Праворуч) -->
+    <section class="category-block bg-alt animate-scroll">
+        <div class="container">
+            <div class="category-card">
+                <div class="chess-grid">
+                    <div class="category-content">
+                        <h2>Жіночі трусики на будь-який смак</h2>
+                        <p>Відкрийте для себе бездоганне поєднання комфорту, естетики та моделюючого ефекту в каталозі L’Amour Lingerie. Ми зібрали всі популярні види крою: класичні <strong>сліпи</strong> (зокрема батальних розмірів), спокусливі <strong>стрінги</strong> та <strong>бразиліани</strong>, комфортні <strong>шортики</strong> й <strong>американки</strong>, а також спеціалізовані <strong>панталони</strong> (для вагітних та від натирань), <strong>велосипедки в рубчик з ефектом push-up</strong> та надійну білизну <strong>для критичних днів</strong>.</p>
+                        
+                        <p>Усі вироби виготовлені з високоякісних матеріалів: ніжної <strong>мікрофібри</strong> з дихаючою сіточкою, еластичного <strong>нейлону</strong> з вишуканим мереживом, а також бавовни та безшовних полотен. Шукаєте делікатну корекцію? Наші моделі з утяжкою живота, посиленою високою резинкою та коригуванням талії допоможуть створити бездоганний силует.</p>
+                        
+                        <p>Обирайте перевірену якість від найкращих світових брендів, які широко представлені в нашому каталозі: лідери ринку <strong>Nadizi</strong> та <strong>Finella</strong>, експерти з моделюючого ефекту <strong>Hana</strong>, <strong>Ouno</strong> та <strong>HON2</strong>, а також улюблені бренди <strong>Dyana</strong>, <strong>Spach</strong> та <strong>Beisdanna</strong>.</p>
+                        
+                        <a href="#contact-section" class="category-scroll-link">
+                            <span class="link-text">Обрати ідеальну модель трусиків</span>
+                            <span class="arrow">↓</span>
+                        </a>
+                    </div>
+                    <div class="category-image-frame">
+                        <span class="wave-pulse wave-pulse-1"></span>
+                        <span class="wave-pulse wave-pulse-2"></span>
+                        <span class="wave-pulse wave-pulse-3"></span>
+                        <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783957147/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_183831432_sn85qf.webp" alt="Жіночі трусики сліпи стрінги бразиліани утяжка купити L'Amour Lingerie">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КАРТКА 2: БЮСТГАЛЬТЕРИ (Чергування: Картинка Ліворуч, Текст Праворуч) -->
+    <section class="category-block animate-scroll">
+        <div class="container">
+            <div class="category-card">
+                <div class="chess-grid">
+                    <div class="category-content">
+                        <h2>Жіночі бюстгальтери</h2>
+                        <p>Знайдіть свою ідеальну посадку та відчуття впевненості з колекцією бюстгальтерів від L’Amour Lingerie. Ми пропонуємо моделі, які поєднують у собі бездоганну підтримку та витончений дизайн. У нашому асортименті — ніжні мереживні бюстгальтери з м'якою чашкою для максимальної природності, витончені моделі з мереживною сіткою на тонкому напівпоролоні, а також лаконічні повсякденні бюстгальтери на тонкому поролоні. Для тих, хто шукає особливі акценти та хоче підкреслити індивідуальність, ми підготували ефектні моделі з портупеями, що додадуть вашому образу особливого шарму та спокусливості.</p>
+                        <a href="#contact-section" class="category-scroll-link">
+                            <span class="link-text">Обрати ідеальний бюстгальтер</span>
+                            <span class="arrow">↓</span>
+                        </a>
+                    </div>
+                    <div class="category-image-frame">
+                        <span class="wave-pulse wave-pulse-1"></span>
+                        <span class="wave-pulse wave-pulse-2"></span>
+                        <span class="wave-pulse wave-pulse-3"></span>
+                        <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783957437/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_184319716_theytf.webp" alt="Якісні бюстгальтери пуш-ап ліфчики від виробника L'Amour Lingerie">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- КАРТКА 3: ТОПИ (Чергування: Текст Ліворуч, Картинка Праворуч) -->
+    <section class="category-block bg-alt animate-scroll">
+        <div class="container">
+            <div class="category-card">
+                <div class="chess-grid">
+                    <div class="category-content">
+                        <h2>Жіночі топи та топ-бюстгальтери</h2>
+                        <p>Відкрийте для себе новий рівень комфорту та підтримки з колекцією жіночих топів від L’Amour Lingerie. Ми зібрали найкращі моделі для будь-яких потреба: від базових бавовняних топів та стильних підліткових моделей у рубчик до вишуканих безшовних топів-бюстгальтерів з формованими чашками, які ідеально тримають форму грудей. Для активного життя та тренувань пропонуємо технологічні спортивні топи з дихаючої мікрофібри, моделі на зручних застібках спереду та варіанти з регулюванням об'єму на липучках. Також ми подбали про майбутніх і молодих матусь, додавши до асортименту неймовірно м'які та еластичні топи для годування з мікрофібри та делікатного дрібного рубчика.</p>
+                        <a href="#contact-section" class="category-scroll-link">
+                            <span class="link-text">Обрати комфортний топ</span>
+                            <span class="arrow">↓</span>
+                        </a>
+                    </div>
+                    <div class="category-image-frame">
+                        <span class="wave-pulse wave-pulse-1"></span>
+                        <span class="wave-pulse wave-pulse-2"></span>
+                        <span class="wave-pulse wave-pulse-3"></span>
+                        <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783957363/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_184205295_vynbzc.webp" alt="Безшовні топи в рубчик спортивні топи купити Україна L'Amour Lingerie">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КАРТКА 4: ЛОСИНИ ТА КОЛГОТКИ (Чергування: Картинка Ліворуч, Текст Праворуч) -->
+    <section class="category-block animate-scroll">
+        <div class="container">
+            <div class="category-card">
+                <div class="chess-grid">
+                    <div class="category-content">
+                        <h2>Легінси, лосини та термоколготки</h2>
+                        <p>Обирайте стильний комфорт та бездоганну посадку з колекцією легінсів, лосин і термоколготок від L’Amour Lingerie. У нашому асортименті представлені ультрамодні жіночі легінси з ефектом push-up та спокусливим зборчатим швом ззаду, а також безшовні коригуючі лосини з м'якої мікрофібри в рубчик. Для холодних днів мы підготували особливі бестселери: гладенькі лосини на ніжному мікро-флісі з високою посадкою, які делікатно та надійно тримають животик, а також супертеплі жіночі термоколготки на хутрі та термолосини «Ластівка». Наші моделі гарантують ідеальну корекцію силуету, максимальну м'якість до тіла та надійний захист від будь-якого холоду.</p>
+                        <a href="#contact-section" class="category-scroll-link">
+                            <span class="link-text">Обрати легінси, лосини чи колготки</span>
+                            <span class="arrow">↓</span>
+                        </a>
+                    </div>
+                    <div class="category-image-frame">
+                        <span class="wave-pulse wave-pulse-1"></span>
+                        <span class="wave-pulse wave-pulse-2"></span>
+                        <span class="wave-pulse wave-pulse-3"></span>
+                        <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783957275/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_184006087_ulfcza.webp" alt="Капронові колготки, легінси та лосини з високою посадкою L'Amour Lingerie">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КАРТКА 5: ЧОЛОВІЧІ БОКСЕРИ (Чергування: Текст Ліворуч, Картинка Праворуч) -->
+    <section class="category-block bg-men-boxers animate-scroll">
+        <div class="container">
+            <div class="category-card">
+                <div class="chess-grid">
+                    <div class="category-content">
+                        <h2>Чоловічі труси боксери</h2>
+                        <p>Комфорт починається з бази: фірмова чоловіка лінійка нижньої білизни L’Amour Lingerie орієнтована на чоловіків, які цінують максимальну практичність та найвищу якість пошиву. Наші чоловічі труси боксери виготовлені з м'якої натуральної бавовни з додаванням оптимального відсотка еластану для підвищення міцності, довговічності та запобігання втрати форми. Комфортна еластична прихована або брендована резинка м'яко фіксує білизну на тілі, плоскі делікатні шви запобігають будь-якому натиранню, а анатомічно вивірені лекала гарантують бездоганну зручність у русі на весь день.</p>
+                        <a href="#contact-section" class="category-scroll-link">
+                            <span class="link-text">Замовити чоловічі боксери</span>
+                            <span class="arrow">↓</span>
+                        </a>
+                    </div>
+                    <div class="category-image-frame">
+                        <span class="wave-pulse wave-pulse-1"></span>
+                        <span class="wave-pulse wave-pulse-2"></span>
+                        <span class="wave-pulse wave-pulse-3"></span>
+                        <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783957044/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-13_183613392_crps7b.webp" alt="Чоловіча білизна боксери бавовна купити L'Amour Lingerie" style="width: 70%; height: 70%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КАРТКА 6: ОДЯГ ТА ВЗУТТЯ (Чергування: Картинка Ліворуч, Текст Праворуч) -->
+    <section class="category-block bg-alt animate-scroll">
+        <div class="container">
+            <div class="category-card">
+                <div class="chess-grid">
+                    <div class="category-content">
+                        <h2>Стоковий одяг та взуття</h2>
+                        <p>Оновіть свій щоденний та спортивний гардероб з ексклюзивною колекцією одягу та взуття від L’Amour Lingerie. Ми пропонуємо легкі та дихаючі жіночі та чоловічі <strong>футболки</strong> вільного крою, еластичні повсякденні <strong>майки</strong>, які ідеально сідають по фігурі та дарують повна свободу рухів під час прогулянок чи інтенсивних тренувань. Наші вироби шиються з преміального трикотажу та м'якої бавовни, що відмінно тримають форму після прання. На додаток до базового текстилю, у нас ви знайдете ультрасучасні та надзвичайно зручні <strong>кросівки</strong>. Вони забезпечують бездоганну амортизацію, надійну підтримку стопи та стильний дизайн, який гармонійно завершить ваш повсякденний образ.</p>
+                        <a href="#contact-section" class="category-scroll-link">
+                            <span class="link-text">Обрати стильний одяг та кросівки</span>
+                            <span class="arrow">↓</span>
+                        </a>
+                    </div>
+                    <div class="category-image-frame">
+                        <span class="wave-pulse wave-pulse-1"></span>
+                        <span class="wave-pulse wave-pulse-2"></span>
+                        <span class="wave-pulse wave-pulse-3"></span>
+                        <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1784019896/%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_2026-07-14_120431953_l9keax.webp" alt="Стильний спортивний одяг, майки, футболки та кросівки L'Amour Lingerie">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact-section" class="standalone-contact-section animate-scroll">
+        <div class="container">
+            <div class="contact-flex-layout">
+                <div class="footer-cta-text">
+                    <h3>Зв'яжіться з нами — L’Amour Lingerie</h3>
+                    <p>
+                        Бажаєте купити нижню білизна, дізнатися про актуальну наявність популярних кольорів або маєте сумніви, який саме розмір безшовного топа, мереживного бюстгальтера чи коригуючих лосин підійде саме під ваші параметри? Наші менеджери працюють без перерв та вихідних і завжди раді надати швидку персональну допомогу у виборі! 
+                        <br><br>
+                        Ми детально розповімо про властивості тканин, допоможемо підібрати правильну модель за вашими індивідуальними замірами, оперативно оформимо швидку доставку <b>Новою Поштою</b> або <b>Укрпоштою</b> в будь-який куточок України. Пишіть нам у <b>Viber</b> або <b>Telegram</b> прямо зараз і насолоджуйтеся першокласним сервісом та преміальною якістю білизни!
+                    </p>
+                </div>
+
+                <div class="footer-actions-right">
+                    <div class="messenger-heading">Пишіть у зручний для вас месенджер</div>
+                    
+                    <div class="cta-group">
+                        <span class="button--bubble__container">
+                            <a href="https://invite.viber.com/?g2=AQA%2F1LmMQSkpClbZ1mohevxToIQSrmE2RmoA4t8uiST2ruWx%2BOGkaFtBq7ikmEHO" class="button button--bubble button-viber">
+                                <span>Viber</span>
+                                <div class="icon">
+                                    <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783851133/%D0%A2%D1%80%D1%83%D0%B1%D0%BA%D0%B0_2_h6bi4z.png" alt="Viber">
+                                </div>
+                            </a>
+                            <span class="button--bubble__effect-container">
+                                <span class="circle top-left"></span>
+                                <span class="circle top-left"></span>
+                                <span class="circle top-left"></span>
+                                <span class="effect-button"></span>
+                                <span class="circle bottom-right"></span>
+                                <span class="circle bottom-right"></span>
+                                <span class="circle bottom-right"></span>
+                            </span>
+                        </span>
+
+                        <span class="button--bubble__container">
+                            <a href="https://t.me/L_Amour_Lingerie" class="button button--bubble button-tg">
+                                <span>Telegram</span>
+                                <div class="icon">
+                                    <img src="https://res.cloudinary.com/dzqwklovt/image/upload/v1783851193/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC%D1%87%D0%B8%D0%BA_lawheg.png" alt="Telegram">
+                                </div>
+                            </a>
+                            <span class="button--bubble__effect-container">
+                                <span class="circle top-left"></span>
+                                <span class="circle top-left"></span>
+                                <span class="circle top-left"></span>
+                                <span class="effect-button"></span>
+                                <span class="circle bottom-right"></span>
+                                <span class="circle bottom-right"></span>
+                                <span class="circle bottom-right"></span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var animatedElements = document.querySelectorAll('.animate-scroll');
+            
+            var observerOptions = {
+                root: null,
+                rootMargin: '0px 0px -10% 0px',
+                threshold: 0.05 
+            };
+
+            var observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        requestAnimationFrame(function() {
+                            entry.target.classList.add('is-visible');
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            animatedElements.forEach(function(element) {
+                observer.observe(element);
+            });
+
+            if (window.innerWidth > 1023) {
+                document.querySelectorAll('.category-image-frame').forEach(function(frame) {
+                    frame.addEventListener('mousemove', function(e) {
+                        var rect = frame.getBoundingClientRect();
+                        var x = e.clientX - rect.left - rect.width / 2;
+                        var y = e.clientY - rect.top - rect.height / 2;
+                        
+                        requestAnimationFrame(function() {
+                            frame.style.transform = 'translate3d(' + (x * 0.1) + 'px, ' + (y * 0.1) + 'px, 0) scale(1.02)';
+                            var img = frame.querySelector('img');
+                            if (img) {
+                                img.style.transform = 'translate3d(' + (x * 0.05) + 'px, ' + (y * 0.05) + 'px, 0) scale(1.06)';
+                            }
+                        });
+                    });
+
+                    frame.addEventListener('mouseleave', function() {
+                        requestAnimationFrame(function() {
+                            frame.style.transform = 'translate3d(0, 0, 0) scale(1)';
+                            var img = frame.querySelector('img');
+                            if (img) {
+                                img.style.transform = 'translate3d(0, 0, 0) scale(1)';
+                            }
+                        });
+                    });
+                });
+            }
+
+            document.querySelectorAll('.category-scroll-link').forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: document.documentElement.scrollHeight,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+
+        var mobileTimelines = [];
+
+        $('.button--bubble').each(function() {
+            var $button = $(this);
+            var $container = $button.parent();
+            var $circlesTopLeft = $container.find('.circle.top-left');
+            var $circlesBottomRight = $container.find('.circle.bottom-right');
+            var $effectButton = $container.find('.effect-button');
+
+            var tl = new TimelineLite();
+            var tl2 = new TimelineLite();
+            var btTl = new TimelineLite({ paused: true });
+
+            tl.to($circlesTopLeft, 1.2, { x: -25, y: -25, scaleY: 2, ease: SlowMo.ease.config(0.1, 0.7, false) });
+            tl.to($circlesTopLeft.eq(0), 0.1, { scale: 0.2, x: '+=6', y: '-=2' });
+            tl.to($circlesTopLeft.eq(1), 0.1, { scaleX: 1, scaleY: 0.8, x: '-=10', y: '-=7' }, '-=0.1');
+            tl.to($circlesTopLeft.eq(2), 0.1, { scale: 0.2, x: '-=15', y: '+=6' }, '-=0.1');
+            tl.to($circlesTopLeft.eq(0), 1, { scale: 0, x: '-=5', y: '-=15', opacity: 0 });
+            tl.to($circlesTopLeft.eq(1), 1, { scaleX: 0.4, scaleY: 0.4, x: '-=10', y: '-=10', opacity: 0 }, '-=1');
+            tl.to($circlesTopLeft.eq(2), 1, { scale: 0, x: '-=15', y: '+=5', opacity: 0 }, '-=1');
+
+            var tlBt1 = new TimelineLite();
+            tlBt1.set($circlesTopLeft, { x: 0, y: 0, rotation: -45, scale: 1, scaleX: 1, scaleY: 1, opacity: 1 });
+            tlBt1.add(tl);
+
+            tl2.set($circlesBottomRight, { x: 0, y: 0, scale: 1, opacity: 1 });
+            tl2.to($circlesBottomRight, 1.1, { x: 30, y: 30, ease: SlowMo.ease.config(0.1, 0.7, false) });
+            tl2.to($circlesBottomRight.eq(0), 0.1, { scale: 0.2, x: '-=6', y: '+=3' });
+            tl2.to($circlesBottomRight.eq(1), 0.1, { scale: 0.8, x: '+=7', y: '+=3' }, '-=0.1');
+            tl2.to($circlesBottomRight.eq(2), 0.1, { scale: 0.2, x: '+=15', y: '-=6' }, '-=0.2');
+            tl2.to($circlesBottomRight.eq(0), 1, { scale: 0, x: '+=5', y: '+=15', opacity: 0 });
+            tl2.to($circlesBottomRight.eq(1), 1, { scale: 0.4, x: '+=7', y: '+=7', opacity: 0 }, '-=1');
+            tl2.to($circlesBottomRight.eq(2), 1, { scale: 0, x: '+=15', y: '-=5', opacity: 0 }, '-=1');
+            
+            var tlBt2 = new TimelineLite();
+            tlBt2.set($circlesBottomRight, { x: 0, y: 0, rotation: 45, scale: 1, opacity: 1 });
+            tlBt2.add(tl2);
+
+            btTl.add(tlBt1);
+            btTl.to($effectButton, 0.8, { scaleY: 1.1 }, 0.1);
+            btTl.add(tlBt2, 0.2);
+            btTl.to($effectButton, 1.8, { scale: 1, ease: Elastic.easeOut.config(1.2, 0.4) }, 1.2);
+
+            btTl.timeScale(2.6);
+
+            $button.on('mouseenter', function() {
+                if (window.innerWidth > 1023 && !btTl.isActive()) {
+                    btTl.restart();
+                }
+            });
+
+            mobileTimelines.push(btTl);
+        });
+
+        if (mobileTimelines.length > 0) {
+            var currentActiveIndex = 0;
+
+            setTimeout(function() {
+                if (window.innerWidth <= 1023) {
+                    mobileTimelines[0].restart();
+                    currentActiveIndex = 1; 
+                }
+            }, 1500);
+
+            setInterval(function() {
+                if (window.innerWidth <= 1023) {
+                    var activeTl = mobileTimelines[currentActiveIndex];
+                    if (activeTl && !activeTl.isActive()) {
+                        activeTl.restart();
+                    }
+                    currentActiveIndex = (currentActiveIndex + 1) % mobileTimelines.length;
+                }
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
